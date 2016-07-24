@@ -1,11 +1,15 @@
 import urllib.request
 import urllib.parse
 import json
+import easygui as g
+import sys
 
 while True:
     url='http://fanyi.youdao.com/translate?smartresult=dict&smartresult=rule&smartresult=ugc&sessionFrom=https://www.baidu.com/link'
-    trans=input("请输入要翻译的文本：")
-
+    msg="请输入需要翻译的文本："
+    title='翻译小工具'
+    default=''
+    trans=g.enterbox(msg,title,default)
 
     head={}
     head['User-Agent']='Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
@@ -28,8 +32,10 @@ while True:
     html=response.read().decode('UTF-8')
 
     fanyi=json.loads(html)
-
-
-    print("翻译结果： %s"%(fanyi['translateResult'][0][0]['tgt']))
+      if g.ccbox(fanyi['translateResult'][0][0]['tgt'],choices=('继续翻译','退出')):
+        continue
+    else:
+        sys.exit(0)
+    
 
 
