@@ -1,0 +1,29 @@
+missing module named resource - imported by posix, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named posix - imported by os, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named _posixsubprocess - imported by subprocess, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named 'org.python' - imported by pickle, C:\Users\Administrator\Desktop\translate\translate.py, xml.sax
+missing module named readline - imported by cmd, code, pdb, C:\Users\Administrator\Desktop\translate\translate.py
+excluded module named _frozen_importlib - imported by importlib, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named _winreg - imported by platform, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named java - imported by platform, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named 'java.lang' - imported by platform, C:\Users\Administrator\Desktop\translate\translate.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named termios - imported by tty, getpass, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named grp - imported by tarfile, shutil, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named org - imported by copy, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, getpass, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named ce - imported by os, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named _dummy_threading - imported by dummy_threading, C:\Users\Administrator\Desktop\translate\translate.py
+missing module named PIL - imported by easygui.boxes.utils
+missing module named tkFont - imported by easygui.boxes.utils, easygui.boxes.text_box, easygui.boxes.button_box, easygui.boxes.diropen_box, easygui.boxes.fileboxsetup, easygui.boxes.filesave_box, easygui.boxes.fillable_box, easygui.boxes.choice_box
+missing module named tkFileDialog - imported by easygui.boxes.utils
+missing module named Tkinter - imported by easygui.boxes.utils, easygui.boxes.text_box, easygui.boxes.button_box, easygui.boxes.diropen_box, easygui.boxes.fileboxsetup, easygui.boxes.filesave_box, easygui.boxes.fillable_box, easygui.boxes.multi_fillable_box, easygui.boxes.choice_box
+missing module named utils - imported by easygui.boxes.button_box, easygui.boxes.diropen_box, easygui.boxes.fileboxsetup, easygui.boxes.fileopen_box, easygui.boxes.filesave_box, easygui.boxes.fillable_box, easygui.boxes.derived_boxes
+missing module named derived_boxes - imported by easygui.boxes.about
+missing module named base_boxes - imported by easygui.boxes.fillable_box, easygui.boxes.choice_box
+missing module named global_state - imported by easygui.boxes.text_box, easygui.boxes.button_box, easygui.boxes.fillable_box, easygui.boxes.multi_fillable_box, easygui.boxes.choice_box
+missing module named text_box - imported by easygui.boxes.button_box, easygui.boxes.derived_boxes
+missing module named button_box - imported by easygui.boxes.derived_boxes
+missing module named fillable_box - imported by easygui.boxes.derived_boxes
+missing module named fileboxsetup - imported by easygui.boxes.fileopen_box, easygui.boxes.filesave_box
+missing module named _scproxy - imported by urllib.request
